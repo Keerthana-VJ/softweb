@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NexGen</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Courier New', Courier, monospace;
+                        }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+		background-color:rgb(237, 214, 9);
+            }
+            .navbar {
+                width: 100%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color:rgb(240, 35, 7);
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: rgb(64, 11, 210);
+            }
+            form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder {
+                color: white;
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color:black;
+                border-radius: 10px;
+                background:rgb(222, 33, 134);
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color:rgb(55, 9, 237);
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color:rgba(180, 16, 134, 0.49);
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .text h2 {
+                color: rgb(140, 6, 86);
+                font-weight: 800;
+                font-size: 50px;
+                letter-spacing: 3px;
+            }
+	    .text h3 {
+                color: rgb(16, 65, 225);
+                font-weight: 800;
+                font-size: 22px;
+                letter-spacing: 3px;
+            }
+	
+            .text p {
+                color: rgb(244, 10, 119);
+                text-transform: capitalize;
+                font-size: 17px;
+                margin-bottom: 30px;
+                word-spacing: 2px;
+                letter-spacing: 1px;
+	
+            }
+                footer {
+                background-color: rgb(9, 237, 108);
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo"><span>NexGen Software Tech</span></h1>
+            <ul>
+                <li><a href="Home.html"> Home </a></li>
+                <li><a href="Product.html"> Products </a></li>
+                <li><a href="persons.html"> People </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h2><span> SOFTWARE DEVELOPMENT </span></h2>
+                <br>
+		<h3></h3>
+		<br>
+                <p>"NextGen Software Company is a dynamic leader in the tech industry, dedicated to pushing the boundaries of innovation and delivering cutting-edge solutions to meet the evolving needs of businesses worldwide. With a focus on customer-centricity and a commitment to excellence, NextGen specializes in developing bespoke software solutions tailored to optimize efficiency, drive growth, and empower digital transformation. Leveraging a talented team of experts and state-of-the-art technologies, NextGen is poised to shape the future of technology and revolutionize industries across the globe."</p>
+                <br>
+                
+            </div>
+        </div>  
+    </div>                                                          
+    <footer>
+        <center> Copyright@2024 Developed by KEERTHANA V(212223220045)</center>
+    </footer>
+</body>
+</html>
